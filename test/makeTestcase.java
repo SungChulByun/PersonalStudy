@@ -5,10 +5,10 @@ import java.util.*;
 public class makeTestcase {
 	public static void main(String args[]) {
 		try {
-		    OutputStream output = new FileOutputStream("C:/Users/user/Desktop/test_nim.txt");
+		    OutputStream output = new FileOutputStream("C:/Users/user/Desktop/test_marathon.txt");
 		    String str = "";
-		    for(int i=0;i<1000;i++) {
-		    	str+=(i%110)+" ";
+		    for(int i=50000;i>=1;i--) {
+		    	str+=i+" ";
 		    }
 		    
 		    byte[] by=str.getBytes();
