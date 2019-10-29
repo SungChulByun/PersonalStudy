@@ -1,6 +1,6 @@
 package Samsung;
 import java.util.*;
-public class S3_fishing_17143 {
+public class S03_fishing_17143 {
 	static int n, m, snum,
 	dx[] = new int[] {-1, 1, 0, 0},
 	dy[] = new int[] {0, 0, 1, -1};

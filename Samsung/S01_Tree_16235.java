@@ -1,7 +1,7 @@
 package Samsung;
 
 import java.util.*;
-public class S1_Tree_16235 {
+public class S01_Tree_16235 {
 	static Trees[][] map;
 	static int dx[] = new int[] {-1, -1, 0, 1, 1, 1, 0, -1},
 			   dy[] = new int[] {0, 1, 1, 1, 0, -1, -1, -1},

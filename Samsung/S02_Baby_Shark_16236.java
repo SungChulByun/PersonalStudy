@@ -1,7 +1,7 @@
 package Samsung;
 
 import java.util.*;
-public class S2_Baby_Shark_16236 {
+public class S02_Baby_Shark_16236 {
 	static PriorityQueue<pair> qu = new PriorityQueue<pair>(new pairComparator());
 	static Queue<pair> nqu = new LinkedList<pair>();
 	static int n, map[][], visit[][], sx, sy, fish, shark_size, stk, time, ct, order[][];

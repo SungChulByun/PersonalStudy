@@ -17,7 +17,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class htmltest {
     public static void main(String args[]) throws IOException, InterruptedException{
-    	String path = "C:\\Users\\user\\Desktop\\bse\\51.txt";
+    	String path = "C:\\Users\\user\\Desktop\\bse\\asdf.txt";
     	BufferedReader br = new BufferedReader(new FileReader(path));
     	String temp = br.readLine();
     	int ct=1;
@@ -45,7 +45,7 @@ public class htmltest {
     	return re;
     }
     public static String[] sungchul(String url) throws IOException {
-    	String realurl = "https://"+url;
+    	String realurl = "https://www.instagram.com/"+url;
     	Document doc = Jsoup.connect(realurl).get();
 //    	String h1 = doc.select("title").text();
 //    	System.out.println(h1);

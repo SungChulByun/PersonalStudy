@@ -1,6 +1,6 @@
 package Samsung;
 import java.util.*;
-public class S4_Lab3_17142 {
+public class S04_Lab3_17142 {
 	static int map[][], tempmap[][], n, vi,
 	dx[] = new int[] {0, 0, 1, -1},
 	dy[] = new int[] {1, -1, 0, 0};
