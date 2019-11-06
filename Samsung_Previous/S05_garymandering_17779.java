@@ -1,4 +1,4 @@
-package Samsung;
+package Samsung_Previous;
 import java.util.*;
 public class S05_garymandering_17779 {
 	static int n, map[][];

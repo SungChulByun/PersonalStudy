@@ -1,4 +1,4 @@
-package Samsung;
+package Samsung_Previous;
 import java.util.*;
 public class S03_fishing_17143 {
 	static int n, m, snum,

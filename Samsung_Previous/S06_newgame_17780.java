@@ -1,4 +1,4 @@
-package Samsung;
+package Samsung_Previous;
 import java.util.*;
 public class S06_newgame_17780 {
 	static HashMap<Integer, int[]> loc = new HashMap<Integer, int[]>();

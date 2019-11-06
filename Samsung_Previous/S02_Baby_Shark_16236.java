@@ -1,4 +1,4 @@
-package Samsung;
+package Samsung_Previous;
 
 import java.util.*;
 public class S02_Baby_Shark_16236 {

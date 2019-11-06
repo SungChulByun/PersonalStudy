@@ -1,4 +1,5 @@
-package Samsung;
+package Samsung_Previous;
+// ¾ÆÁ÷...
 import java.util.*;
 public class S04_Lab3_17142 {
 	static int map[][], tempmap[][], n, vi,
