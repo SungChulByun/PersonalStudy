@@ -86,16 +86,3 @@ class Tree{
 		count[loc]--;
 	}
 }
-class line implements Comparable<line>{
-	int x, sy, ey, status;
-	public line(int x, int sy, int ey, int st) {
-		this.x=x;
-		this.sy=sy;
-		this.ey=ey;
-		this.status=st;
-	}
-	@Override
-	public int compareTo(line tp) {
-		return (this.x-tp.x);
-	}
-}
